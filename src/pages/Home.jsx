@@ -1,13 +1,13 @@
 import React from "react";
-import { FaHtml5, FaReact, FaLinkedin, FaGithub, FaEnvelope, FaTwitter, FaYoutube, FaPython  } from "react-icons/fa";
+import { FaHtml5, FaReact, FaLinkedin, FaGithub, FaEnvelope, FaTwitter, FaYoutube, FaPython } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoCss3, IoLogoFirebase } from "react-icons/io5";
 import { SiJavascript, SiCplusplus } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 // Components
-import InfoCard from "../components/InfoCard"; 
-import StatCard from "../components/StatCard"; 
+import InfoCard from "../components/InfoCard";
+import StatCard from "../components/StatCard";
 
 
 // Data
@@ -18,9 +18,9 @@ const skills = [
   { icon: <FaReact size={40} />, text: "React", ariaLabel: "React" },
   { icon: <RiTailwindCssFill size={40} />, text: "Tailwind", ariaLabel: "Tailwind CSS" },
   { icon: <IoLogoFirebase size={40} />, text: "Firebase", ariaLabel: "Firebase" },
-    { icon: <FaPython size={40} />, text: "Python", ariaLabel: "Python" },
+  { icon: <FaPython size={40} />, text: "Python", ariaLabel: "Python" },
   { icon: <SiCplusplus size={40} />, text: "C++", ariaLabel: "C Plus Plus" },
-  
+
 ];
 
 const socialLinks = [
@@ -32,7 +32,7 @@ const socialLinks = [
 
 export default function Home() {
   return (
-    
+
     <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 lg:grid-rows-6  h-full gap-4  bg-gray-400">
 
 
@@ -49,7 +49,7 @@ export default function Home() {
       <section className="bg-[#eaeff5] rounded-2xl p-5 lg:row-span-3">
         <img
           className="h-full w-full rounded-2xl object-cover object-center"
-          src="/hero-img.jpg" 
+          src="/hero-img.jpg"
           alt="A portrait of Gaurav"
         />
       </section>
@@ -85,12 +85,12 @@ export default function Home() {
           <div className="text-gray-700 leading-relaxed  ">
             Hey, I’m Gaurav — I build things for the web that look good and feel right.
             I’m studying Electronics & Communication, but code’s where I really come alive. React, Vite, Tailwind, and Firebase are the tools I use to bring ideas to life.
-           I like interfaces that speak quietly — clean, clever, and human. 
-              <p className="hidden lg:block">Most days I’m either designing, tweaking pixels, or chasing that “this just works” moment.</p>
+            I like interfaces that speak quietly — clean, clever, and human.
+            <p className="hidden lg:block">Most days I’m either designing, tweaking pixels, or chasing that “this just works” moment.</p>
           </div>
         </div>
       </section>
-      
+
       {/* Stats */}
       <section className="bg-[#eaeff5] rounded-2xl grid grid-rows-3 grid-cols-1 p-5 gap-4 lg:row-span-3">
         <StatCard label="Projects" count={1} />

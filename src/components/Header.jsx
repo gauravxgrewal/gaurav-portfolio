@@ -15,8 +15,6 @@ export default function Header() {
 
   return (
     <>
-      {/* Main Header */}
-      {/* 👇 YAHAN PAR CLASSES WAAPAS ADD KAR DI HAIN */}
       <header className="bg-[#eaeff5] rounded-2xl flex items-center justify-between p-5">
         <Link
           to="/"
@@ -34,10 +32,9 @@ export default function Header() {
                 <NavLink
                   to={link.path}
                   className={({ isActive }) =>
-                    `px-3 py-2 rounded-2xl transition-colors ${
-                      isActive
-                        ? "bg-[#058155] text-white"
-                        : "hover:bg-gray-200"
+                    `px-3 py-2 rounded-2xl transition-colors ${isActive
+                      ? "bg-[#058155] text-white"
+                      : "hover:bg-gray-200"
                     }`
                   }
                 >
@@ -47,7 +44,7 @@ export default function Header() {
             ))}
           </ul>
         </nav>
-        
+
         <a
           href="tel:+919671260908"
           className="rounded-2xl hidden lg:flex bg-[#058155] text-white px-5 py-2 hover:bg-green-800 transition-colors"
