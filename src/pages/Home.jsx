@@ -49,7 +49,7 @@ export default function Home() {
       <section className="bg-[#eaeff5] rounded-2xl p-5 lg:row-span-3">
         <img
           className="h-full w-full rounded-2xl object-cover object-center"
-          src="src/assets/hero-img.jpg" 
+          src="/hero-img.jpg" 
           alt="A portrait of Gaurav"
         />
       </section>
