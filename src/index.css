@@ -2,9 +2,12 @@
 
 @import "tailwindcss";
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: poppins, sans-serif;
   background: #FBFBFA;
 }
+
