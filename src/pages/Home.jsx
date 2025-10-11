@@ -8,6 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 // Components
 import InfoCard from "../components/InfoCard";
 import StatCard from "../components/StatCard";
+import Footer from "../components/Footer";
 
 
 // Data
@@ -39,7 +40,7 @@ export default function Home() {
       {/* Hero Text */}
       <section className="bg-[#eaeff5] rounded-2xl lg:col-span-2 md:col-span-1 lg:row-span-3 p-5">
         <div className="rounded-2xl flex justify-center items-center bg-white h-full p-5 text-center md:text-left">
-          <h1 className="text-5xl md:text-4xl font-bold leading-tight">
+          <h1 className="lg:text-4xl text-2xl md:text-3xl font-bold leading-tight">
             Thinking <span className="text-green-700">awwfull</span> ideas for next project
           </h1>
         </div>
@@ -97,6 +98,8 @@ export default function Home() {
         <StatCard label="Certificates" count={4} />
         <StatCard label="Experience" count={1} />
       </section>
+
+      <Footer />
     </main>
   );
 }
