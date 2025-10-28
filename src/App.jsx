@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    // Poori website ka background aur padding yahan set karo
-
 
       <motion.section
   initial={{ opacity: 0 }}
@@ -14,11 +12,10 @@ function App() {
 >
 
 
-    <div className="bg-gray-400 p-4 grid lg:grid-rows-10 lg:h-screen">
-      {/* Header sabhi pages par dikhega */}
+    <div className="bg-gray-400 p-2 grid lg:grid-rows-10 lg:h-screen">
       <Header />
       
-     <main className="row-span-10 mt-5">
+     <main className="row-span-10 mt-3">
         <Outlet />
       </main>
 

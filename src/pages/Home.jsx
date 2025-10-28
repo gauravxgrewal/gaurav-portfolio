@@ -39,7 +39,7 @@ const socialLinks = [
 export default function Home() {
   return (
 
-    <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 lg:grid-rows-6  h-full gap-4  bg-gray-400">
+    <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 lg:grid-rows-6  h-full gap-2  bg-gray-400">
       {/* Hero Text */}
       <section className="bg-[#eaeff5] rounded-2xl lg:col-span-2 md:col-span-1 lg:row-span-3 p-5">
         <div className="rounded-2xl flex justify-center items-center bg-white h-full p-5 lg:py-5 lg:px-12 text-center md:text-left">
